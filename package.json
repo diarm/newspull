@@ -8,7 +8,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "init": "sanity init",
-    "build": "sanity build",
+    "install": "npm install",
+    "build": "lerna bootstrap && sanity build",
     "start": "sanity start",
     "test": "sanity check"
   },
@@ -27,5 +28,7 @@
     "react": "^16.2",
     "react-dom": "^16.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  }
 }
