@@ -7,6 +7,8 @@
   "author": "diarm <diarmuid.cunningham@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
+    "init": "sanity init",
+    "build": "sanity build",
     "start": "sanity start",
     "test": "sanity check"
   },
