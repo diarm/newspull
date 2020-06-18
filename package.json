@@ -7,7 +7,7 @@
   "author": "diarm <diarmuid.cunningham@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "init": "sanity init",
+    "init": "lerna run lint && sanity init",
     "build": "lerna bootstrap && sanity build",
     "start": "sanity start",
     "test": "sanity check"
